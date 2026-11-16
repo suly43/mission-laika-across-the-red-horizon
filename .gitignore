@@ -1,0 +1,23 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Build and deployment
+.vercel/
+node_modules/
+dist/
+_site/
+
+# Python runtime and game state
+__pycache__/
+*.pyc
+.venv/
+venv/
+python_app/savegame.json
