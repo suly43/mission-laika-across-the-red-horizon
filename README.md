@@ -4,7 +4,9 @@ A space-science adventure for ages 7–12. Run a Martian outpost and guide LAIKA
 
 **Primary submission:** the browser game at the repository root. It needs no login, build step or JavaScript dependencies. The separate `python_app/` contains an earlier, shorter Pygame edition.
 
-Repository: https://github.com/suly43/mission-laika-across-the-red-horizon
+**Game code by [@suly43](https://github.com/suly43).**
+
+[Six-slide demo](docs/MISSION-LAIKA-DEMO.pdf) · [NASA Space Apps project details](docs/SUBMISSION.md) · [Science and asset credits](CREDITS.md)
 
 ## Play locally
 
@@ -32,11 +34,9 @@ Basic mode has no decision or exploration deadline. Advanced adds decision and m
 ## Submission documents
 
 - [Project description and judge demo](docs/SUBMISSION.md)
-- [Final submission checklist](docs/SUBMISSION-CHECKLIST.md)
 - [Science and asset credits](CREDITS.md)
-- [Architecture](docs/ARCHITECTURE.md)
 - [Testing and known limitations](docs/PLAYTEST-AUDIT.md)
-- [Team information](TEAM.md)
+- [Authorship and AI assistance](TEAM.md)
 - [Original supplied game script](docs/GAME-SCRIPT.md)
 
 ## Repository layout
@@ -73,7 +73,9 @@ Latest local result: **28 passing logic tests**, including a complete tunnel tra
 
 **Vercel:** import this repository, choose Other, and leave the build command empty. The optional server function uses `NASA_API_KEY` from server environment variables. Never place a personal key in frontend files. Static hosting uses the public DEMO_KEY with labeled fallback data when requests fail.
 
-## Science and limitations
+## Challenge fit and science
+
+Mission Laika answers [Build a Junior Astronaut Mission Trainer](https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/) by letting students balance health, ventilation, power, radiation shielding, and the needs of a surface mission. Its food lesson covers safety and handling.
 
 NASA DONKI records supply a simplified recent-activity signal; this is not a Mars weather forecast. NASA Images provides archive references. The three supplied terrain images are illustrative reference maps, not live observations taken by LAIKA. Their original provenance still needs confirmation by the team.
 

@@ -1,0 +1,12 @@
+{
+  "name": "mission-laika-across-the-red-horizon",
+  "version": "1.0.0",
+  "description": "NASA Space Apps Challenge 2026: a kid-friendly Mars outpost game about real engineering trade-offs.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/levels.test.mjs",
+    "check": "node --check js/main.js && node --check js/data.js && node --check js/state.js && node --check js/endings.js && node --check js/audio.js && node --check js/games.js && node --check js/levels/level1.js && node --check js/levels/level2.js && node --check js/levels/level3.js && node --check js/levels/level4.js && node --check api/space-weather.js"
+  }
+}

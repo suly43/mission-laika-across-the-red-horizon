@@ -1,0 +1,10 @@
+{
+  "name": "Mission Laika: Across the Red Horizon",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": { "ghcr.io/devcontainers/features/node:1": { "version": "20" } },
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "Browser game", "onAutoForward": "openBrowser" }
+  },
+  "postAttachCommand": "python3 -m http.server 8000"
+}
