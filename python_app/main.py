@@ -13,7 +13,7 @@ import pygame
 
 WIDTH, HEIGHT = 1100, 720
 FPS = 60
-TITLE = "Mission Laika: Across the Red Horizon"
+TITLE = "MISSION LAIKA: ACROSS THE RED HORIZON"
 SAVE_PATH = Path(__file__).resolve().with_name("savegame.json")
 
 # A brighter mission-control palette: deep blue, teal, warm coral, and gold.

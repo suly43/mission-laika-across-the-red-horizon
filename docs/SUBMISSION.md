@@ -9,6 +9,7 @@
 | Field | Public link |
 |---|---|
 | Final project and source code | https://github.com/suly43/mission-laika-across-the-red-horizon |
+| Play the game | https://suly43-mission-laika.mightycouch64.chatgpt.site/ |
 | Project demo (six slides) | https://github.com/suly43/mission-laika-across-the-red-horizon/blob/main/docs/MISSION-LAIKA-DEMO.pdf |
 | References and open-source licenses | https://github.com/suly43/mission-laika-across-the-red-horizon/blob/main/CREDITS.md |
 
@@ -36,7 +37,7 @@ The browser edition uses HTML, CSS, JavaScript, Canvas, Web Audio, and localStor
 ## Before submitting on the event site
 
 1. Open the **Project** tab on the registered team's NASA Space Apps page. Confirm the challenge, event, and roster there.
-2. Paste the project and demo URLs in their respective fields. Confirm both open in a private browser window. Use the summary, project details, and sources above for the matching form fields.
+2. Use the live game URL as the project link and enter the separate demo URL. Include the GitHub repository in the source-code or reference field. Confirm both open in a private browser window. Use the summary, project details, and sources above for the matching form fields.
 3. Confirm the original sources and reuse terms for the three supplied reference maps and include those credits. Update the AI disclosure with any other tools used during development.
 4. Review the applicable terms and complete the form, including the judging choice. The published event deadline is **November 15, 2026 at 11:59 p.m. local event time**. Check the team's event page for local instructions.
 

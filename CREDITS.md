@@ -22,12 +22,13 @@ This project is an educational, independent game inspired by NASA open data. It 
 
 ## Images, fonts, and libraries
 
-- Mars image results link to NASA's public imagery catalog and rover raw-image galleries. Credit: NASA/JPL-Caltech when shown by the image record. Three supplied reference maps are bundled under `assets/mission-photos/`. Their original source and reuse terms are unverified. See [asset notes](assets/README.md).
+- Mars image results link to NASA's public imagery catalog and rover raw-image galleries. Credit: NASA/JPL-Caltech when shown by the image record. See the supplied terrain map notes below for the bundled game assets.
 - **Bungee** and **Itim** typefaces — loaded from Google Fonts: https://fonts.google.com/specimen/Bungee and https://fonts.google.com/specimen/Itim . Both are distributed under the SIL Open Font License 1.1.
 - No third-party JavaScript libraries. Sound is generated with the browser Web Audio API.
-- The desktop edition uses [pygame-ce](https://github.com/pygame-community/pygame-ce), distributed under the GNU LGPL 2.1.
-- ChatGPT assisted with repository preparation, documentation, and the submission demo.
 
 ## License notes
 
 The project source code is MIT licensed. NASA media and data retain their source terms and credit requirements; the MIT license does not relicense NASA material.
+
+## Supplied terrain maps
+`assets/mission-photos/elevation.png`, `terrain.png`, and `surface-map.png` were supplied by the project owner. They are reference illustrations and are not claimed as live rover photographs. Original dataset, creator and reuse permissions remain to be confirmed by the team before final submission. These files are not covered by the project's MIT code license.

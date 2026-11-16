@@ -7,6 +7,6 @@
   "scripts": {
     "start": "python3 -m http.server 8000",
     "test": "node --test tests/levels.test.mjs",
-    "check": "node --check js/main.js && node --check js/data.js && node --check js/state.js && node --check js/endings.js && node --check js/audio.js && node --check js/games.js && node --check js/levels/level1.js && node --check js/levels/level2.js && node --check js/levels/level3.js && node --check js/levels/level4.js && node --check api/space-weather.js"
+    "check": "node --check js/audio.js && node --check js/data.js && node --check js/endings.js && node --check js/games.js && node --check js/levels/level1.js && node --check js/levels/level2.js && node --check js/levels/level3.js && node --check js/levels/level4.js && node --check js/main.js && node --check js/mission-photos.js && node --check js/state.js && node --check api/space-weather.js"
   }
 }

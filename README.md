@@ -6,7 +6,15 @@ A space-science adventure for ages 7–12. Run a Martian outpost and guide LAIKA
 
 **Game code by [@suly43](https://github.com/suly43).**
 
-[Six-slide demo](docs/MISSION-LAIKA-DEMO.pdf) · [NASA Space Apps project details](docs/SUBMISSION.md) · [Science and asset credits](CREDITS.md)
+**[Play Mission Laika in your browser](https://suly43-mission-laika.mightycouch64.chatgpt.site/)** · [Six-slide demo](docs/MISSION-LAIKA-DEMO.pdf) · [NASA Space Apps project details](docs/SUBMISSION.md)
+
+## Quick start for judges
+
+1. Open **Play Mission Laika** above. The browser edition needs no download, install, or login.
+2. Choose **Start Mission**, enter an astronaut name, and keep **Basic** selected for an untimed first run.
+3. Click **Create Astronaut**, wait for the launch, then choose **Begin level 1**. Click or tap a choice to see its feedback.
+
+Use **Data & Sources** at the bottom of the game to review the NASA references. The [mission guide](#mission-guide) lists controls and objectives for each level.
 
 ## Play locally
 
@@ -65,11 +73,11 @@ npm run check
 python3 -m py_compile python_app/main.py
 ```
 
-Latest local result: **28 passing logic tests**, including a complete tunnel traversal using movement inputs and the six-photo exit regression. Browser rendering, audio playback and live NASA connectivity have not been independently verified in this environment. CI reports its own results after upload; a local pass is not a claim that GitHub Actions has run.
+The suite includes a complete tunnel traversal with movement inputs, the six-photo exit regression, and countdown sound cue checks. [View GitHub Actions results](https://github.com/suly43/mission-laika-across-the-red-horizon/actions).
 
 ## Hosting
 
-**GitHub Pages:** in repository Settings → Pages, select GitHub Actions. The included workflow publishes only the browser files. The public site URL appears in the deployment output; it is not live until deployment succeeds.
+**GitHub Pages:** in repository Settings → Pages, select GitHub Actions. Run the included deployment workflow manually from the Actions tab after configuring Pages. It publishes only the browser files. The public site URL appears in the deployment output; it is not live until deployment succeeds.
 
 **Vercel:** import this repository, choose Other, and leave the build command empty. The optional server function uses `NASA_API_KEY` from server environment variables. Never place a personal key in frontend files. Static hosting uses the public DEMO_KEY with labeled fallback data when requests fail.
 
